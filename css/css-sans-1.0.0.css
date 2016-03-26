@@ -207,23 +207,28 @@
   border-style: solid;
 }
 .H {
-  position: relative;
-  top: 12.5px;
-  left: 10px;
-  width: 60px;
-  height: 125px;
-  border-width: 0 16px 0 16px;
-  border-color: #000000;
-  border-style: solid;
+ 
 }
 .H:before {
+  -webkit-transform: rotate(198deg);
+  -moz-transform: rotate(198deg);
+  -ms-transform: rotate(198deg);
+  -o-transform: rotate(198deg);
+  transform: rotate(198deg);
   position: absolute;
   content: '';
-  top: 53px;
-  left: 0;
-  width: 60px;
-  height: 14px;
-  background-color: #000000;
+  top: 65px;
+  left: 21px;
+  width: 52px;
+  height: 44px;
+  border-width: 14px 0 15px 15px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 240% 0 0 110% / 140% 0 0 100%;
+  -moz-border-radius: 240% 0 0 110% / 140% 0 0 100%;
+  -ms-border-radius: 240% 0 0 110% / 140% 0 0 100%;
+  -o-border-radius: 240% 0 0 110% / 140% 0 0 100%;
+  border-radius: 240% 0 0 110% / 140% 0 0 100%;
 }
 .I {
   z-index: 1;  
